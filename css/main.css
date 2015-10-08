@@ -4,6 +4,19 @@ html,body{
     width: 100%;
 
 }
+ul{
+    list-style: none;
+}
+ul li{
+
+    color: #fff;
+    padding: 0 1%;
+    display: inline-block;
+}
+
+li:hover{
+    background-color: gray;
+}
 video{
     filter: brightness(40%);
     -webkit-filter: brightness(40%);
