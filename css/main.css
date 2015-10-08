@@ -4,7 +4,12 @@ html,body{
     width: 100%;
 
 }
+video{
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+    -moz-filter: brightness(40%);
 
+}
 video#bgvid {
     position: fixed;
     top: 50%;
