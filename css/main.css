@@ -8,14 +8,17 @@ ul{
     list-style: none;
 }
 ul li{
-
-    color: #fff;
     padding: 0 1%;
     display: inline-block;
 }
 
-li:hover{
-    background-color: gray;
+ul li a{
+    color: lightgray;
+    text-decoration: none;
+}
+hr.line {
+	/*border-top: 1px solid #8c8b8b;*/
+	border-bottom: .5px solid #fff;
 }
 video{
     filter: brightness(40%);
