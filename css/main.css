@@ -67,6 +67,13 @@ video#bgvid {
     text-decoration: none;
     color: gray;
 }
+.middle-text h1{
+    letter-spacing: 25px;
+    font-size: 4em;
+    font-family: arial;
+    font-weight: 100;
+
+}
 .link {
     padding: 2% 0;
     border-top: 1px solid lightgray;
@@ -78,6 +85,16 @@ video#bgvid {
 	background-color: darkslategray;
     transition: all .2s ease;
 }
-.link:hover{
+.link a:hover{
     border-spacing: 30px;
+}
+.link span{
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 1.5em;
+}
+.link span.small{
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: gray;
 }
