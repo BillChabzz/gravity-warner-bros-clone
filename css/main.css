@@ -67,9 +67,15 @@ video#bgvid {
     text-decoration: none;
     color: gray;
 }
+.actors p{
+    font-size: 2em;
+}
+.actors p.san {
+    padding-right: 50%;
+}
 .middle-text h1{
     letter-spacing: 25px;
-    font-size: 4em;
+    font-size: 3.3em;
     font-family: arial;
     font-weight: 100;
 
